@@ -1,16 +1,16 @@
-import { createCamera } from './components/camera.js';
-import { createLights } from './components/lights.js';
-import { createScene } from './components/scene.js';
+import { createCamera } from 'https://raw.githubusercontent.com/ToryBigFish/InstallationWeb/main/World/components/camera.js';
+import { createLights } from 'https://raw.githubusercontent.com/ToryBigFish/InstallationWeb/main/World/components/lights.js';
+import { createScene } from 'https://raw.githubusercontent.com/ToryBigFish/InstallationWeb/main/World/components/scene.js';
 
-import { createControls } from './systems/controls.js';
-import { createRenderer } from './systems/renderer.js';
-import { Resizer } from './systems/Resizer.js';
-import { Loop } from './systems/Loop.js';
+import { createControls } from 'https://raw.githubusercontent.com/ToryBigFish/InstallationWeb/main/World/systems/controls.js';
+import { createRenderer } from 'https://raw.githubusercontent.com/ToryBigFish/InstallationWeb/main/World/systems/renderer.js';
+import { Resizer } from 'https://raw.githubusercontent.com/ToryBigFish/InstallationWeb/main/World/systems/Resizer.js';
+import { Loop } from 'https://raw.githubusercontent.com/ToryBigFish/InstallationWeb/main/World/systems/Loop.js';
 
-import {Vector3} from '/vendor/three/build/three.module.js';
+import {Vector3} from 'https://raw.githubusercontent.com/ToryBigFish/InstallationWeb/main/vendor/three/build/three.module.js';
 
-import { modelLoader } from './components/Installation/modelLoad.js';
-import { setting_button } from './components/Installation/setting_buttons_with_animations.js';
+import { modelLoader } from 'https://raw.githubusercontent.com/ToryBigFish/InstallationWeb/main/World/components/Installation/modelLoad.js';
+import { setting_button } from 'https://raw.githubusercontent.com/ToryBigFish/InstallationWeb/main/World/components/Installation/setting_buttons_with_animations.js';
 
 let camera;
 let renderer;
