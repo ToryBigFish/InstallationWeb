@@ -1,4 +1,4 @@
-import { World } from './World/World.js';
+// import { World } from './World/World.js';
 
 async function main() {
   // Get a reference to the container element
