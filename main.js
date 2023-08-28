@@ -1,5 +1,5 @@
 // import { World } from './World/World.js';
-
+<script type="text/javascript" src='https://rawcdn.githack.com/ToryBigFish/InstallationWeb/9be8b6553a2cd26fed61f6de6e74d272f7eeb98f/World/World.js'></script>
 async function main() {
   // Get a reference to the container element
   const container = document.querySelector('#scene-container');
