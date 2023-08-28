@@ -1,0 +1,145 @@
+body {
+  /* remove margins and scroll bars */
+  margin: 0;
+  overflow: hidden;
+
+  /* style text */
+  text-align: center;
+  font-size: 12px;
+  font-family: Sans-Serif;
+
+  /* color text */
+  color: #444;
+}
+
+h1 {
+  /* position the heading */
+  position: absolute;
+  width: 100%;
+  font-size: 40px;
+
+  /* make sure that the heading is drawn on top */
+  z-index: 1;
+}
+
+#scene-container {
+  /* tell our scene container to take up the full page */
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+  /*
+    Set the container's background color to the same as the scene's
+    background to prevent flashing on load
+  */
+  background-color: 0xffffff;
+}
+
+
+
+.button_st {position: absolute;z-index: 1;text-decoration:none; text-align:center; 
+ padding:11px 32px; 
+ border:solid 1px #2f3136; 
+ -webkit-border-radius:11px;
+ -moz-border-radius:11px; 
+ border-radius: 11px; 
+ font:16px Arial, Helvetica, sans-serif; 
+ font-weight:bold; 
+ color:#ffffff; 
+ background-color:#2f3136; 
+ background-image: -moz-linear-gradient(top, #2f3136 0%, #525a69 100%); 
+ background-image: -webkit-linear-gradient(top, #2f3136 0%, #525a69 100%); 
+ background-image: -o-linear-gradient(top, #2f3136 0%, #525a69 100%); 
+ background-image: -ms-linear-gradient(top, #2f3136 0% ,#525a69 100%); 
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#525a69', endColorstr='#525a69',GradientType=0 ); 
+ background-image: linear-gradient(top, #2f3136 0% ,#525a69 100%);   
+ -webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
+ -moz-box-shadow: 0px 0px 2px #bababa,  inset 0px 0px 1px #ffffff;  
+ box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
+
+ width: 180px;
+  height: 50px; 
+  
+  }.button_st:hover{
+ padding:11px 32px; 
+ border:solid 1px #2f3136; 
+ -webkit-border-radius:11px;
+ -moz-border-radius:11px; 
+ border-radius: 11px; 
+ font:16px Arial, Helvetica, sans-serif; 
+ font-weight:bold; 
+ color:#ffffff; 
+ background-color:#546b78; 
+ background-image: -moz-linear-gradient(top, #546b78 0%, #57868f 100%); 
+ background-image: -webkit-linear-gradient(top, #546b78 0%, #57868f 100%); 
+ background-image: -o-linear-gradient(top, #546b78 0%, #57868f 100%); 
+ background-image: -ms-linear-gradient(top, #546b78 0% ,#57868f 100%); 
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#57868f', endColorstr='#57868f',GradientType=0 ); 
+ background-image: linear-gradient(top, #546b78 0% ,#57868f 100%);   
+ -webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
+ -moz-box-shadow: 0px 0px 2px #bababa,  inset 0px 0px 1px #ffffff;  
+ box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;  
+  
+ }.button_st:active{
+ padding:11px 32px; 
+ border:solid 1px #2f3136; 
+ -webkit-border-radius:11px;
+ -moz-border-radius:11px; 
+ border-radius: 11px; 
+ font:16px Arial, Helvetica, sans-serif; 
+ font-weight:bold; 
+ color:#ffffff; 
+ background-color:#2f3136; 
+ background-image: -moz-linear-gradient(top, #2f3136 0%, #525a69 100%); 
+ background-image: -webkit-linear-gradient(top, #2f3136 0%, #525a69 100%); 
+ background-image: -o-linear-gradient(top, #2f3136 0%, #525a69 100%); 
+ background-image: -ms-linear-gradient(top, #2f3136 0% ,#525a69 100%); 
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#525a69', endColorstr='#525a69',GradientType=0 ); 
+ background-image: linear-gradient(top, #2f3136 0% ,#525a69 100%);   
+ -webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
+ -moz-box-shadow: 0px 0px 2px #bababa,  inset 0px 0px 1px #ffffff;  
+ box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;  
+  
+ }
+
+
+
+#LEDs_background {
+  top: 80px;
+  left: 30px;
+}
+
+#LEDs_obj {
+  top: 140px;
+  left: 30px;
+}
+
+#Channel_LEDs_obj {
+  top: 200px;
+  left: 30px;
+}
+
+#Absorbing_filter {
+  top: 260px;
+  left: 30px;
+}
+
+#Color_filters {
+  top: 320px;
+  left: 30px;
+}
+
+#Monochromator {
+  top: 380px;
+  left: 30px;
+}
+
+#Shar {
+  top: 440px;
+  left: 30px;
+}
+
+#Experiment {
+  top: 500px;
+  left: 30px;
+}
